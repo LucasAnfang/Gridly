@@ -171,6 +171,7 @@
 		BF0F29D11E128CD5008AC2BE /* Gridly */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F2A2A1E137891008AC2BE /* TableViewControllers */,
 				BF0F2A291E136C0B008AC2BE /* Profile */,
 				BF0F2A221E134CB8008AC2BE /* DatabaseConnection */,
 				BF0F2A1E1E12FF43008AC2BE /* Utilities */,
@@ -187,8 +188,6 @@
 				BF0F29E31E128CD5008AC2BE /* Info.plist */,
 				BF0F2A051E128F6B008AC2BE /* GoogleService-Info.plist */,
 				BF0F29D21E128CD5008AC2BE /* Supporting Files */,
-				BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */,
-				BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */,
 			);
 			path = Gridly;
 			sourceTree = "<group>";
@@ -273,6 +272,15 @@
 				BF0F2A1C1E12FE05008AC2BE /* ProfileViewController.m */,
 			);
 			name = Profile;
+			sourceTree = "<group>";
+		};
+		BF0F2A2A1E137891008AC2BE /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */,
+				BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */,
+			);
+			name = TableViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
