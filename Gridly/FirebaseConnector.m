@@ -33,8 +33,10 @@
     return _sharedFirebaseConnector;
 }
 
-- (void) storeFirstName: (NSString *) fn
-             LastName: (NSString *) ln{
+- (void) storeUsername: (NSString *) un
+             Firstname: (NSString *) fn
+             Lastname: (NSString *) ln{
+        [[[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]] child:@"username"] setValue:un];
     [[[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]] child:@"firstname"] setValue:fn];
     [[[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]] child:@"lastname"] setValue:ln];
 //    [[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]]

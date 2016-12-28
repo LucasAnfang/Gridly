@@ -9,6 +9,8 @@
 #import "ProfileViewController.h"
 
 @interface ProfileViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *EmailLabel;
+@property (weak, nonatomic) IBOutlet UILabel *UsernameLabel;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.EmailLabel.text = [NSString stringWithFormat: @"Email: %@ ", [[[FIRAuth auth] currentUser] email]];
 }
 
 - (void)didReceiveMemoryWarning {

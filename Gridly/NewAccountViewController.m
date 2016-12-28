@@ -9,7 +9,7 @@
 #import "NewAccountViewController.h"
 #import "FirebaseConnector.h"
 @interface NewAccountViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextField *UsernameTF;
 @property (weak, nonatomic) IBOutlet UITextField *FirstNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *LastNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *EmailTextField;
@@ -51,7 +51,7 @@
              [self DisplayErrorInMessage:error.localizedDescription];
          } else{
              //segue to main (successful signup)
-             [self.firebaseConnector storeFirstName:self.FirstNameTextField.text LastName:self.LastNameTextField.text];
+             [self.firebaseConnector storeUsername:self.UsernameTF.text Firstname:self.FirstNameTextField.text  Lastname:self.LastNameTextField.text];
              [self performSegueWithIdentifier: @"NewAccountToMain" sender:nil];
          }
          
@@ -73,7 +73,7 @@
 -(Boolean) hasNoEmptyFields{ //check if fields are filled
     return (self.FirstNameTextField.hasText && self.LastNameTextField.hasText &&
             self.EmailTextField.hasText && self.PasswordTextField.hasText &&
-            self.ConfirmPasswordTextField.hasText);
+            self.ConfirmPasswordTextField.hasText && self.UsernameTF.hasText);
 }
 
 

@@ -11,6 +11,7 @@
 @import Firebase; //need to import firebase for authentication
 @interface FirebaseConnector : NSObject
 + (instancetype) sharedFirebaseConnector;
-- (void) storeFirstName: (NSString *) fn
-               LastName: (NSString *) ln;
+- (void) storeUsername: (NSString *) un
+             Firstname: (NSString *) fn
+              Lastname: (NSString *) ln;
 @end
