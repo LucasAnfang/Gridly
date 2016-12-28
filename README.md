@@ -1,5 +1,5 @@
 # Gridly
-iOS app playing around with MapKit and Firebase (and possible Geofire if it becomes necissary)
+iOS app playing around with MapKit and Firebase (and possible Geofire if it becomes necessary)
 
 I want to make an app that allows a user to see his/her friends interesting activities as they are navigating an area. A user can organize these activities into various channels: food, sports, entertainment (will be stored as constants at start but later will allow for customization). As you travel around a new area, you can see the various cool spots that you might have overlooked. This would be super useful for people traveling to new cities and will be a fun project to work on in my spare time. 
 
