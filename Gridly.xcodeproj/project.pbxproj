@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A9CE0298060BA46D057B29 /* libPods-GridlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7200BCDFC3B078011D56974 /* libPods-GridlyTests.a */; };
 		BF0F29D41E128CD5008AC2BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F29D31E128CD5008AC2BE /* main.m */; };
 		BF0F29D71E128CD5008AC2BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F29D61E128CD5008AC2BE /* AppDelegate.m */; };
 		BF0F29DA1E128CD5008AC2BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F29D91E128CD5008AC2BE /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		BF0F29E21E128CD5008AC2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F29E01E128CD5008AC2BE /* LaunchScreen.storyboard */; };
 		BF0F29ED1E128CD5008AC2BE /* GridlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F29EC1E128CD5008AC2BE /* GridlyTests.m */; };
 		BF0F29F81E128CD5008AC2BE /* GridlyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F29F71E128CD5008AC2BE /* GridlyUITests.m */; };
+		BF0F2A061E128F6B008AC2BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF0F2A051E128F6B008AC2BE /* GoogleService-Info.plist */; };
+		BF0F2A0A1E129164008AC2BE /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A091E129164008AC2BE /* InitialViewController.m */; };
+		BF0F2A0D1E1296EA008AC2BE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A0C1E1296EA008AC2BE /* LoginViewController.m */; };
+		BF0F2A101E1296F8008AC2BE /* NewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A0F1E1296F8008AC2BE /* NewAccountViewController.m */; };
+		BF0F2A121E12A189008AC2BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0F2A111E12A189008AC2BE /* MapKit.framework */; };
+		BF0F2A151E12A66E008AC2BE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A141E12A66E008AC2BE /* MapViewController.m */; };
+		BF0F2A191E12A93F008AC2BE /* LocationActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A181E12A93F008AC2BE /* LocationActivity.m */; };
+		BF0F2A1D1E12FE05008AC2BE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A1C1E12FE05008AC2BE /* ProfileViewController.m */; };
+		BF0F2A241E134D1D008AC2BE /* FirebaseConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A231E134D1D008AC2BE /* FirebaseConnector.m */; };
+		BF0F2A281E136BFA008AC2BE /* ActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */; };
+		C2AE9DC3FC3582A807392E16 /* libPods-Gridly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEF5BF909DCE0234F63217 /* libPods-Gridly.a */; };
+		CBF5CB33182CACF10106867C /* libPods-GridlyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E0D697E9AD5646631DB9F8 /* libPods-GridlyUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21D6FE9F16327A6DA11ECAD2 /* Pods-GridlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridlyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridlyTests/Pods-GridlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2616809F5EBBBCE36F7EE3BB /* Pods-GridlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridlyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridlyUITests/Pods-GridlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31E0D697E9AD5646631DB9F8 /* libPods-GridlyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GridlyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EEF5BF909DCE0234F63217 /* libPods-Gridly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gridly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2C74EA51C5CAB0DBB2EC4A /* Pods-Gridly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gridly/Pods-Gridly.release.xcconfig"; sourceTree = "<group>"; };
+		6FC627587890DD49CE33455D /* Pods-Gridly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gridly/Pods-Gridly.debug.xcconfig"; sourceTree = "<group>"; };
+		79C25904B0BBDEB884ACF213 /* Pods-GridlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridlyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridlyUITests/Pods-GridlyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7200BCDFC3B078011D56974 /* libPods-GridlyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GridlyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA94C39641C70F5CDF7DF904 /* Pods-GridlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridlyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridlyTests/Pods-GridlyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0F29CF1E128CD5008AC2BE /* Gridly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0F29D31E128CD5008AC2BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF0F29D51E128CD5008AC2BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,24 @@
 		BF0F29F31E128CD5008AC2BE /* GridlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0F29F71E128CD5008AC2BE /* GridlyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridlyUITests.m; sourceTree = "<group>"; };
 		BF0F29F91E128CD5008AC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0F2A051E128F6B008AC2BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF0F2A081E129164008AC2BE /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		BF0F2A091E129164008AC2BE /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		BF0F2A0B1E1296EA008AC2BE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BF0F2A0C1E1296EA008AC2BE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BF0F2A0E1E1296F8008AC2BE /* NewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAccountViewController.h; sourceTree = "<group>"; };
+		BF0F2A0F1E1296F8008AC2BE /* NewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAccountViewController.m; sourceTree = "<group>"; };
+		BF0F2A111E12A189008AC2BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF0F2A131E12A66E008AC2BE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BF0F2A141E12A66E008AC2BE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		BF0F2A181E12A93F008AC2BE /* LocationActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationActivity.m; sourceTree = "<group>"; };
+		BF0F2A1A1E12A952008AC2BE /* LocationActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationActivity.h; sourceTree = "<group>"; };
+		BF0F2A1B1E12FE05008AC2BE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		BF0F2A1C1E12FE05008AC2BE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		BF0F2A231E134D1D008AC2BE /* FirebaseConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseConnector.m; sourceTree = "<group>"; };
+		BF0F2A251E134D2A008AC2BE /* FirebaseConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseConnector.h; sourceTree = "<group>"; };
+		BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0F2A121E12A189008AC2BE /* MapKit.framework in Frameworks */,
+				C2AE9DC3FC3582A807392E16 /* libPods-Gridly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A9CE0298060BA46D057B29 /* libPods-GridlyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +115,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5CB33182CACF10106867C /* libPods-GridlyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210BF56D66E99B96C9D30938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC627587890DD49CE33455D /* Pods-Gridly.debug.xcconfig */,
+				6B2C74EA51C5CAB0DBB2EC4A /* Pods-Gridly.release.xcconfig */,
+				AA94C39641C70F5CDF7DF904 /* Pods-GridlyTests.debug.xcconfig */,
+				21D6FE9F16327A6DA11ECAD2 /* Pods-GridlyTests.release.xcconfig */,
+				2616809F5EBBBCE36F7EE3BB /* Pods-GridlyUITests.debug.xcconfig */,
+				79C25904B0BBDEB884ACF213 /* Pods-GridlyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A8C29E9B7C01CF0E6AB92F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A111E12A189008AC2BE /* MapKit.framework */,
+				55EEF5BF909DCE0234F63217 /* libPods-Gridly.a */,
+				A7200BCDFC3B078011D56974 /* libPods-GridlyTests.a */,
+				31E0D697E9AD5646631DB9F8 /* libPods-GridlyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF0F29C61E128CD5008AC2BE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +153,8 @@
 				BF0F29EB1E128CD5008AC2BE /* GridlyTests */,
 				BF0F29F61E128CD5008AC2BE /* GridlyUITests */,
 				BF0F29D01E128CD5008AC2BE /* Products */,
+				210BF56D66E99B96C9D30938 /* Pods */,
+				5A8C29E9B7C01CF0E6AB92F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +171,12 @@
 		BF0F29D11E128CD5008AC2BE /* Gridly */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F2A291E136C0B008AC2BE /* Profile */,
+				BF0F2A221E134CB8008AC2BE /* DatabaseConnection */,
+				BF0F2A1E1E12FF43008AC2BE /* Utilities */,
+				BF0F2A171E12A810008AC2BE /* SharedModel */,
+				BF0F2A161E12A7E1008AC2BE /* Mapping */,
+				BF0F2A071E129125008AC2BE /* Authentication */,
 				BF0F29D51E128CD5008AC2BE /* AppDelegate.h */,
 				BF0F29D61E128CD5008AC2BE /* AppDelegate.m */,
 				BF0F29D81E128CD5008AC2BE /* ViewController.h */,
@@ -109,7 +185,10 @@
 				BF0F29DE1E128CD5008AC2BE /* Assets.xcassets */,
 				BF0F29E01E128CD5008AC2BE /* LaunchScreen.storyboard */,
 				BF0F29E31E128CD5008AC2BE /* Info.plist */,
+				BF0F2A051E128F6B008AC2BE /* GoogleService-Info.plist */,
 				BF0F29D21E128CD5008AC2BE /* Supporting Files */,
+				BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */,
+				BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */,
 			);
 			path = Gridly;
 			sourceTree = "<group>";
@@ -140,6 +219,62 @@
 			path = GridlyUITests;
 			sourceTree = "<group>";
 		};
+		BF0F2A071E129125008AC2BE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A0B1E1296EA008AC2BE /* LoginViewController.h */,
+				BF0F2A0C1E1296EA008AC2BE /* LoginViewController.m */,
+				BF0F2A0E1E1296F8008AC2BE /* NewAccountViewController.h */,
+				BF0F2A0F1E1296F8008AC2BE /* NewAccountViewController.m */,
+				BF0F2A081E129164008AC2BE /* InitialViewController.h */,
+				BF0F2A091E129164008AC2BE /* InitialViewController.m */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		BF0F2A161E12A7E1008AC2BE /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A131E12A66E008AC2BE /* MapViewController.h */,
+				BF0F2A141E12A66E008AC2BE /* MapViewController.m */,
+			);
+			name = Mapping;
+			sourceTree = "<group>";
+		};
+		BF0F2A171E12A810008AC2BE /* SharedModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A181E12A93F008AC2BE /* LocationActivity.m */,
+				BF0F2A1A1E12A952008AC2BE /* LocationActivity.h */,
+			);
+			name = SharedModel;
+			sourceTree = "<group>";
+		};
+		BF0F2A1E1E12FF43008AC2BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		BF0F2A221E134CB8008AC2BE /* DatabaseConnection */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A231E134D1D008AC2BE /* FirebaseConnector.m */,
+				BF0F2A251E134D2A008AC2BE /* FirebaseConnector.h */,
+			);
+			name = DatabaseConnection;
+			sourceTree = "<group>";
+		};
+		BF0F2A291E136C0B008AC2BE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A1B1E12FE05008AC2BE /* ProfileViewController.h */,
+				BF0F2A1C1E12FE05008AC2BE /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0F29FC1E128CD5008AC2BE /* Build configuration list for PBXNativeTarget "Gridly" */;
 			buildPhases = (
+				7BD696181BF1F56101BAF80E /* [CP] Check Pods Manifest.lock */,
 				BF0F29CB1E128CD5008AC2BE /* Sources */,
 				BF0F29CC1E128CD5008AC2BE /* Frameworks */,
 				BF0F29CD1E128CD5008AC2BE /* Resources */,
+				55C80D37679097E5B8620547 /* [CP] Embed Pods Frameworks */,
+				C896C2964170D6093C26F43F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0F29FF1E128CD5008AC2BE /* Build configuration list for PBXNativeTarget "GridlyTests" */;
 			buildPhases = (
+				26A9CA260FEE044DA315D002 /* [CP] Check Pods Manifest.lock */,
 				BF0F29E41E128CD5008AC2BE /* Sources */,
 				BF0F29E51E128CD5008AC2BE /* Frameworks */,
 				BF0F29E61E128CD5008AC2BE /* Resources */,
+				8F53AF9693911423D1ADD577 /* [CP] Embed Pods Frameworks */,
+				6F7C8FA67AB302E00CB6E5BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0F2A021E128CD5008AC2BE /* Build configuration list for PBXNativeTarget "GridlyUITests" */;
 			buildPhases = (
+				85A5D14522F577CEB2FE97B8 /* [CP] Check Pods Manifest.lock */,
 				BF0F29EF1E128CD5008AC2BE /* Sources */,
 				BF0F29F01E128CD5008AC2BE /* Frameworks */,
 				BF0F29F11E128CD5008AC2BE /* Resources */,
+				85ED2284F83FA1B4331252B3 /* [CP] Embed Pods Frameworks */,
+				FC549357D5A81B9413C2E3B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +352,11 @@
 					BF0F29CE1E128CD5008AC2BE = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BF0F29E71E128CD5008AC2BE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -248,6 +397,7 @@
 			files = (
 				BF0F29E21E128CD5008AC2BE /* LaunchScreen.storyboard in Resources */,
 				BF0F29DF1E128CD5008AC2BE /* Assets.xcassets in Resources */,
+				BF0F2A061E128F6B008AC2BE /* GoogleService-Info.plist in Resources */,
 				BF0F29DD1E128CD5008AC2BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +418,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A9CA260FEE044DA315D002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55C80D37679097E5B8620547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gridly/Pods-Gridly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7C8FA67AB302E00CB6E5BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridlyTests/Pods-GridlyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD696181BF1F56101BAF80E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85A5D14522F577CEB2FE97B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85ED2284F83FA1B4331252B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridlyUITests/Pods-GridlyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F53AF9693911423D1ADD577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridlyTests/Pods-GridlyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C896C2964170D6093C26F43F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gridly/Pods-Gridly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC549357D5A81B9413C2E3B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridlyUITests/Pods-GridlyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF0F29CB1E128CD5008AC2BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BF0F29DA1E128CD5008AC2BE /* ViewController.m in Sources */,
+				BF0F2A1D1E12FE05008AC2BE /* ProfileViewController.m in Sources */,
+				BF0F2A101E1296F8008AC2BE /* NewAccountViewController.m in Sources */,
 				BF0F29D71E128CD5008AC2BE /* AppDelegate.m in Sources */,
+				BF0F2A281E136BFA008AC2BE /* ActivityTableViewController.m in Sources */,
+				BF0F2A191E12A93F008AC2BE /* LocationActivity.m in Sources */,
 				BF0F29D41E128CD5008AC2BE /* main.m in Sources */,
+				BF0F2A241E134D1D008AC2BE /* FirebaseConnector.m in Sources */,
+				BF0F2A0A1E129164008AC2BE /* InitialViewController.m in Sources */,
+				BF0F2A0D1E1296EA008AC2BE /* LoginViewController.m in Sources */,
+				BF0F2A151E12A66E008AC2BE /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +716,7 @@
 		};
 		BF0F29FD1E128CD5008AC2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC627587890DD49CE33455D /* Pods-Gridly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gridly/Info.plist;
@@ -431,6 +728,7 @@
 		};
 		BF0F29FE1E128CD5008AC2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2C74EA51C5CAB0DBB2EC4A /* Pods-Gridly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gridly/Info.plist;
@@ -442,6 +740,7 @@
 		};
 		BF0F2A001E128CD5008AC2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA94C39641C70F5CDF7DF904 /* Pods-GridlyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GridlyTests/Info.plist;
@@ -454,6 +753,7 @@
 		};
 		BF0F2A011E128CD5008AC2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D6FE9F16327A6DA11ECAD2 /* Pods-GridlyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GridlyTests/Info.plist;
@@ -466,6 +766,7 @@
 		};
 		BF0F2A031E128CD5008AC2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2616809F5EBBBCE36F7EE3BB /* Pods-GridlyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GridlyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +778,7 @@
 		};
 		BF0F2A041E128CD5008AC2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C25904B0BBDEB884ACF213 /* Pods-GridlyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GridlyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +807,7 @@
 				BF0F29FE1E128CD5008AC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF0F29FF1E128CD5008AC2BE /* Build configuration list for PBXNativeTarget "GridlyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +816,7 @@
 				BF0F2A011E128CD5008AC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF0F2A021E128CD5008AC2BE /* Build configuration list for PBXNativeTarget "GridlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +825,7 @@
 				BF0F2A041E128CD5008AC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
