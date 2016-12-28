@@ -26,6 +26,9 @@
 		BF0F2A1D1E12FE05008AC2BE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A1C1E12FE05008AC2BE /* ProfileViewController.m */; };
 		BF0F2A241E134D1D008AC2BE /* FirebaseConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A231E134D1D008AC2BE /* FirebaseConnector.m */; };
 		BF0F2A281E136BFA008AC2BE /* ActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */; };
+		BF0F2A2D1E144AF2008AC2BE /* FollowersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A2C1E144AF2008AC2BE /* FollowersTableViewController.m */; };
+		BF0F2A301E144FE7008AC2BE /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A2F1E144FE7008AC2BE /* ChannelsTableViewController.m */; };
+		BF0F2A331E144FF8008AC2BE /* FollowingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A321E144FF8008AC2BE /* FollowingTableViewController.m */; };
 		C2AE9DC3FC3582A807392E16 /* libPods-Gridly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEF5BF909DCE0234F63217 /* libPods-Gridly.a */; };
 		CBF5CB33182CACF10106867C /* libPods-GridlyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E0D697E9AD5646631DB9F8 /* libPods-GridlyUITests.a */; };
 /* End PBXBuildFile section */
@@ -91,6 +94,12 @@
 		BF0F2A251E134D2A008AC2BE /* FirebaseConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseConnector.h; sourceTree = "<group>"; };
 		BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewController.h; sourceTree = "<group>"; };
 		BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A2B1E144AF2008AC2BE /* FollowersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowersTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A2C1E144AF2008AC2BE /* FollowersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowersTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A2E1E144FE7008AC2BE /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A2F1E144FE7008AC2BE /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A311E144FF8008AC2BE /* FollowingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowingTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A321E144FF8008AC2BE /* FollowingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +286,12 @@
 		BF0F2A2A1E137891008AC2BE /* TableViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F2A2E1E144FE7008AC2BE /* ChannelsTableViewController.h */,
+				BF0F2A2F1E144FE7008AC2BE /* ChannelsTableViewController.m */,
+				BF0F2A311E144FF8008AC2BE /* FollowingTableViewController.h */,
+				BF0F2A321E144FF8008AC2BE /* FollowingTableViewController.m */,
+				BF0F2A2B1E144AF2008AC2BE /* FollowersTableViewController.h */,
+				BF0F2A2C1E144AF2008AC2BE /* FollowersTableViewController.m */,
 				BF0F2A261E136BFA008AC2BE /* ActivityTableViewController.h */,
 				BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */,
 			);
@@ -579,7 +594,10 @@
 				BF0F2A241E134D1D008AC2BE /* FirebaseConnector.m in Sources */,
 				BF0F2A0A1E129164008AC2BE /* InitialViewController.m in Sources */,
 				BF0F2A0D1E1296EA008AC2BE /* LoginViewController.m in Sources */,
+				BF0F2A2D1E144AF2008AC2BE /* FollowersTableViewController.m in Sources */,
 				BF0F2A151E12A66E008AC2BE /* MapViewController.m in Sources */,
+				BF0F2A301E144FE7008AC2BE /* ChannelsTableViewController.m in Sources */,
+				BF0F2A331E144FF8008AC2BE /* FollowingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

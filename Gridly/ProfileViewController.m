@@ -40,6 +40,15 @@
     [self performSegueWithIdentifier: @"UserProfileToInitial" sender:nil];
     
 }
+- (IBAction)FollowersButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"MyProfileToMyFollowers" sender:nil];
+}
+- (IBAction)ChannelsButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"MyProfileToMyChannels" sender:nil];
+}
+- (IBAction)FollowingButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"MyProfileToMyFollowing" sender:nil];
+}
 -(void)DisplayErrorInMessage:(NSString*)message{
     //alert if there is an error
     UIAlertController *alertController = [UIAlertController
