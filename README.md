@@ -6,3 +6,6 @@ I want to make an app that allows a user to see his/her friends interesting acti
 Work Log:
 12/27/2016
 I started by creating simple view controllers for the login/registration. Then I followed the steps using pods to download Firebase to use for user authentication and persistent data. I finished user authentication and tested. After this was working, I went about learing about NoSQL db storage with Firebase and the JSON structure. I will need this to save all of the activities, channels, and user relationships. I did a simple test saving a new users first name and last name and it worked. I then moved onto making the tab bar controller with the various tabs: profile, map, and activity table.
+
+12/29/2016
+I worked more on the user profile and the firebase model. I also drew out the JSON structure for users, channels, and activities
