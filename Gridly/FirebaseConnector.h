@@ -14,4 +14,5 @@
 - (void) storeUsername: (NSString *) un
              Firstname: (NSString *) fn
               Lastname: (NSString *) ln;
+- (void) followUser: (NSString *) uid;
 @end

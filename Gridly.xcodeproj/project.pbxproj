@@ -29,6 +29,9 @@
 		BF0F2A2D1E144AF2008AC2BE /* FollowersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A2C1E144AF2008AC2BE /* FollowersTableViewController.m */; };
 		BF0F2A301E144FE7008AC2BE /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A2F1E144FE7008AC2BE /* ChannelsTableViewController.m */; };
 		BF0F2A331E144FF8008AC2BE /* FollowingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A321E144FF8008AC2BE /* FollowingTableViewController.m */; };
+		BF0F2A371E1811D3008AC2BE /* MainSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A361E1811D3008AC2BE /* MainSearchTableViewController.m */; };
+		BF0F2A3A1E1811EE008AC2BE /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A391E1811EE008AC2BE /* SearchResultsTableViewController.m */; };
+		BF0F2A3C1E181360008AC2BE /* SharedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2A3B1E181360008AC2BE /* SharedModel.m */; };
 		C2AE9DC3FC3582A807392E16 /* libPods-Gridly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEF5BF909DCE0234F63217 /* libPods-Gridly.a */; };
 		CBF5CB33182CACF10106867C /* libPods-GridlyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E0D697E9AD5646631DB9F8 /* libPods-GridlyUITests.a */; };
 /* End PBXBuildFile section */
@@ -100,6 +103,12 @@
 		BF0F2A2F1E144FE7008AC2BE /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		BF0F2A311E144FF8008AC2BE /* FollowingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowingTableViewController.h; sourceTree = "<group>"; };
 		BF0F2A321E144FF8008AC2BE /* FollowingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowingTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A351E1811D3008AC2BE /* MainSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSearchTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A361E1811D3008AC2BE /* MainSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSearchTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A381E1811EE008AC2BE /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		BF0F2A391E1811EE008AC2BE /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		BF0F2A3B1E181360008AC2BE /* SharedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedModel.m; sourceTree = "<group>"; };
+		BF0F2A3D1E18136C008AC2BE /* SharedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +189,7 @@
 		BF0F29D11E128CD5008AC2BE /* Gridly */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F2A3E1E181385008AC2BE /* Search */,
 				BF0F2A2A1E137891008AC2BE /* TableViewControllers */,
 				BF0F2A291E136C0B008AC2BE /* Profile */,
 				BF0F2A221E134CB8008AC2BE /* DatabaseConnection */,
@@ -254,6 +264,8 @@
 			children = (
 				BF0F2A181E12A93F008AC2BE /* LocationActivity.m */,
 				BF0F2A1A1E12A952008AC2BE /* LocationActivity.h */,
+				BF0F2A3B1E181360008AC2BE /* SharedModel.m */,
+				BF0F2A3D1E18136C008AC2BE /* SharedModel.h */,
 			);
 			name = SharedModel;
 			sourceTree = "<group>";
@@ -296,6 +308,17 @@
 				BF0F2A271E136BFA008AC2BE /* ActivityTableViewController.m */,
 			);
 			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		BF0F2A3E1E181385008AC2BE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F2A351E1811D3008AC2BE /* MainSearchTableViewController.h */,
+				BF0F2A361E1811D3008AC2BE /* MainSearchTableViewController.m */,
+				BF0F2A381E1811EE008AC2BE /* SearchResultsTableViewController.h */,
+				BF0F2A391E1811EE008AC2BE /* SearchResultsTableViewController.m */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -586,8 +609,10 @@
 			files = (
 				BF0F29DA1E128CD5008AC2BE /* ViewController.m in Sources */,
 				BF0F2A1D1E12FE05008AC2BE /* ProfileViewController.m in Sources */,
+				BF0F2A371E1811D3008AC2BE /* MainSearchTableViewController.m in Sources */,
 				BF0F2A101E1296F8008AC2BE /* NewAccountViewController.m in Sources */,
 				BF0F29D71E128CD5008AC2BE /* AppDelegate.m in Sources */,
+				BF0F2A3C1E181360008AC2BE /* SharedModel.m in Sources */,
 				BF0F2A281E136BFA008AC2BE /* ActivityTableViewController.m in Sources */,
 				BF0F2A191E12A93F008AC2BE /* LocationActivity.m in Sources */,
 				BF0F29D41E128CD5008AC2BE /* main.m in Sources */,
@@ -595,6 +620,7 @@
 				BF0F2A0A1E129164008AC2BE /* InitialViewController.m in Sources */,
 				BF0F2A0D1E1296EA008AC2BE /* LoginViewController.m in Sources */,
 				BF0F2A2D1E144AF2008AC2BE /* FollowersTableViewController.m in Sources */,
+				BF0F2A3A1E1811EE008AC2BE /* SearchResultsTableViewController.m in Sources */,
 				BF0F2A151E12A66E008AC2BE /* MapViewController.m in Sources */,
 				BF0F2A301E144FE7008AC2BE /* ChannelsTableViewController.m in Sources */,
 				BF0F2A331E144FF8008AC2BE /* FollowingTableViewController.m in Sources */,

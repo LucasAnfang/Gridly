@@ -42,6 +42,14 @@
 //    [[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]]
 //     setValue:@{@"firstname": fn}];
 //    [[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]]
- //    setValue:@{@"lastname": ln}];
+ //    setValue:@{@"lastname": ln}]; //This overwrites at that location
 }
+
+- (void) followUser: (NSString *) ouid
+{
+    [[[[_ref child:@"users"] child:[[[FIRAuth auth] currentUser]uid]] child:@"following"] setValue: ouid];
+    //need to keep fixing this
+}
+
+
 @end
